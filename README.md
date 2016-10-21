@@ -13,12 +13,12 @@ mobius-yt 구동에 필요한 전체 모듈들과 함께 설치되도록 할 수
 이후로는 mysql과 pg의 connect 함수 및 conntion pool 생성 방법만을 고려하여 수정하면 원하는 작업을 할 수 있을 것이다.
 mysql과 pg의 DML 문법이 다른 부분이 있어 수정이 필요하다 - mobius-yt-2.1.2/mobius/sql_actioin.js
 
-수정된 항목은 다음과 같으며, 대상 파일들만을 공유하도록 한다.
-mobius-yt-2.1.2/app.js
-mobius-yt-2.1.2/mobius.js
-mobius-yt-2.1.2/package.json
-mobius-yt-2.1.2/mobius/cb.js
-mobius-yt-2.1.2/mobius/db_action.js
-mobius-yt-2.1.2/mobius/resource.js
-mobius-yt-2.1.2/mobius/sql_actioin.js
-mobius-yt-2.1.2/mobius/ts_agent.js
+수정된 항목은 다음과 같으며, 대상 파일들만을 공유하도록 한다.</BR>
+mobius-yt-2.1.2/app.js</BR>
+mobius-yt-2.1.2/mobius.js</BR>
+mobius-yt-2.1.2/package.json</BR>
+mobius-yt-2.1.2/mobius/cb.js</BR>
+mobius-yt-2.1.2/mobius/db_action.js</BR>
+mobius-yt-2.1.2/mobius/resource.js</BR>
+mobius-yt-2.1.2/mobius/sql_actioin.js</BR>
+mobius-yt-2.1.2/mobius/ts_agent.js</BR>
