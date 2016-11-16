@@ -1,3 +1,5 @@
+[English version]</BR>
+</BR>
 # What is mobius-yt-pg?
 
 The mobius-yt-pg is the changed part of Mobius Yellow Turtle(MYT) Version 2.1.2 to connect to PostgreSQL.</BR>
@@ -49,10 +51,11 @@ The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there 
 * Step 5 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
 </BR>
 If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.</BR>
+</BR>
+</BR>
 
-
-
-
+[Korean version]</BR>
+</BR>
 # mobius-yt-pg
 
 mobius Yellow Turtle(mobius-yt)은 oneM2M 표준에 기반한 IoT 서버 플랫폼으로서 Node.js와 Java Script의 두가지 버전으로 개발되었다.
@@ -72,9 +75,9 @@ mysql과 pg의 DML 문법이 다른 부분이 있어 수정이 필요하다 - mo
 mobius-yt-2.1.2/app.js</BR>
 mobius-yt-2.1.2/mobius.js</BR>
 mobius-yt-2.1.2/package.json</BR>
+mobius-yt-2.1.2/pxymqtt.js</BR>
 mobius-yt-2.1.2/mobius/cb.js</BR>
 mobius-yt-2.1.2/mobius/db_action.js</BR>
 mobius-yt-2.1.2/mobius/resource.js</BR>
 mobius-yt-2.1.2/mobius/sql_actioin.js</BR>
-
 mobius-yt-2.1.2/mobius/ts_agent.js</BR>
