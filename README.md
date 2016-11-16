@@ -1,5 +1,5 @@
 [English version]</BR>
-</BR>
+
 # What is mobius-yt-pg?
 
 The mobius-yt-pg is the changed part of Mobius Yellow Turtle(MYT) Version 2.1.2 to connect to PostgreSQL.</BR>
@@ -55,7 +55,7 @@ If you run into problems for the MYT to connect to PostgreSQL, check function of
 </BR>
 
 [Korean version]</BR>
-</BR>
+
 # mobius-yt-pg
 
 mobius Yellow Turtle(mobius-yt)은 oneM2M 표준에 기반한 IoT 서버 플랫폼으로서 Node.js와 Java Script의 두가지 버전으로 개발되었다.
