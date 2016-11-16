@@ -1,3 +1,54 @@
+# What is Mobius Yellow Turtle(MYT)?
+
+Mobius Yellow Turtle(MYT) Version 2.1.2 is open source software of oneM2M-based IoT Server Platform developed with Node.js and javascript.
+The source code and Install/Development guides are to be found on http://www.iotocean.org/main.
+
+
+# Why did we select MYT?
+
+Now we are doning R&D with governmental subsidies from NIPA(National IT industry Promotion Agency, South Korea).
+We are making integrated data platform using PostgreSQL, Bottledwater, Kafka, and Cloudera for IoT.
+In the efforts we accepted MYT as application server.
+
+
+# What part of MYT did we change?
+
+MYT uses MySQL as default DBMS.
+We changed some part of the source code to connect with PostgreSQL.
+The pg_module should be installed for connecting to PostgreSQL.
+There are two ways to install pg_module.
+First, use "npt install pg" command.
+Second, write "pg": "^6.0.3" item in package.json of the source code of MYT and do install the package.
+
+The list of changed source(mobius-yt-pg) for PostgreSQL connection is as followings which we share on GitHub.
+
+mobius-yt-2.1.2/app.js
+mobius-yt-2.1.2/mobius.js
+mobius-yt-2.1.2/package.json
+mobius-yt-2.1.2/pxymqtt.js
+mobius-yt-2.1.2/mobius/cb.js
+mobius-yt-2.1.2/mobius/db_action.js
+mobius-yt-2.1.2/mobius/resource.js
+mobius-yt-2.1.2/mobius/sql_actioin.js
+mobius-yt-2.1.2/mobius/ts_agent.js
+
+The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there needs change of source code (mobius-yt-2.1.2/mobius/sql_actioin.js).
+
+
+
+# How to apply this changes?
+
+* Step 1 : Download the full source code of MYT Version 2.1.2 from www.iotocean.org
+* Step 2 : Download the source code of mobius-yt-pg from this GibHub(github.com/kayform/mobius-yt-pg)
+* Step 3 : Install MYT Version 2.1.2
+* Step 4 : Install(overwrite) mobius-yt-pg
+* Step 5 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
+
+If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.
+
+
+
+
 # mobius-yt-pg
 
 mobius Yellow Turtle(mobius-yt)은 oneM2M 표준에 기반한 IoT 서버 플랫폼으로서 Node.js와 Java Script의 두가지 버전으로 개발되었다.
