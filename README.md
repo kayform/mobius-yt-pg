@@ -49,7 +49,7 @@ The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there 
 * Step 3 : Install MYT Version 2.1.2
 * Step 4 : Install(overwrite) mobius-yt-pg
 * Step 5 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
-</BR>
+
 If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.</BR>
 </BR>
 </BR>
