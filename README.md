@@ -13,7 +13,7 @@ The source code and Install/Development guides are to be found on http://www.iot
 
 # Why did we select MYT?
 
-Now we are doning R&D with governmental subsidies from NIPA(National IT industry Promotion Agency, South Korea).</BR>
+Now we are doing R&D with governmental subsidies from NIPA(National IT industry Promotion Agency, South Korea).</BR>
 We are making integrated data platform using PostgreSQL, Bottledwater, Kafka, and Cloudera for IoT.</BR>
 In the efforts we accepted MYT as application server.</BR>
 </BR>
@@ -47,8 +47,9 @@ The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there 
 * Step 1 : Download the full source code of MYT Version 2.1.2 from www.iotocean.org
 * Step 2 : Download the source code of mobius-yt-pg from this GibHub(github.com/kayform/mobius-yt-pg)
 * Step 3 : Install MYT Version 2.1.2
-* Step 4 : Overwrite mobius-yt-pg onto MYT along with the same paths.
-* Step 5 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
+* Step 4 : Install pg_module
+* Step 5 : Overwrite mobius-yt-pg onto MYT along with the same paths.
+* Step 6 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
 
 If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.</BR>
 </BR>
@@ -81,3 +82,5 @@ mobius-yt-2.1.2/mobius/db_action.js</BR>
 mobius-yt-2.1.2/mobius/resource.js</BR>
 mobius-yt-2.1.2/mobius/sql_actioin.js</BR>
 mobius-yt-2.1.2/mobius/ts_agent.js</BR>
+</BR>
+활용하는 방법은 위 "How to apply this changes?"를 참조하면 된다.
