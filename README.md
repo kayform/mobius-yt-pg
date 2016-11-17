@@ -53,6 +53,9 @@ The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there 
 
 If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.</BR>
 </BR>
+If you have any question, please contact ywlee@k4m.com which is the email of the developer.
+</BR>
+</BR>
 </BR>
 
 [Korean version]</BR>
@@ -84,3 +87,6 @@ mobius-yt-2.1.2/mobius/sql_actioin.js</BR>
 mobius-yt-2.1.2/mobius/ts_agent.js</BR>
 </BR>
 활용하는 방법은 위 "How to apply this changes?"를 참조하면 된다.
+</BR>
+</BR>
+궁금한 사항이 있으면 ywlee@k4m.com으로 문의하시기 바랍니다.
