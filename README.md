@@ -23,7 +23,7 @@ In the efforts we accepted MYT as application server.</BR>
 MYT uses MySQL as default DBMS.</BR>
 We changed some part of the source code to connect with PostgreSQL.</BR>
 The pg_module should be installed for connecting to PostgreSQL.</BR>
-There are %{color:blue}two ways to install pg_module%.</BR>
+There are two ways to install pg_module.</BR>
 First, use "npm install pg" command.</BR>
 Second, write "pg": "^6.0.3" item in package.json of the source code of MYT and do install the package.</BR>
 </BR>
