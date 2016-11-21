@@ -23,8 +23,8 @@ In the efforts we accepted MYT as application server.</BR>
 MYT uses MySQL as default DBMS.</BR>
 We changed some part of the source code to connect with PostgreSQL.</BR>
 The pg_module should be installed for connecting to PostgreSQL.</BR>
-There are two ways to install pg_module.</BR>
-First, use "npt install pg" command.</BR>
+There are %{color:blue}two ways to install pg_module%.</BR>
+First, use "npm install pg" command.</BR>
 Second, write "pg": "^6.0.3" item in package.json of the source code of MYT and do install the package.</BR>
 </BR>
 The list of changed source(mobius-yt-pg) for PostgreSQL connection is as followings which we share on GitHub.</BR>
@@ -49,7 +49,7 @@ The syntax of DMLs between MySQL and PostgreSQL is somewhat different, so there 
 * Step 3 : Install MYT Version 2.1.2
 * Step 4 : Install pg_module
 * Step 5 : Overwrite mobius-yt-pg onto MYT along with the same paths.
-* Step 6 : Run the Mobuis Server with the command "node app.js" (Refer to the install guide from www.iotocean.org)
+* Step 6 : Run the Mobuis Server with the command "node mobius.js" (Refer to the install guide from www.iotocean.org)
 
 If you run into problems for the MYT to connect to PostgreSQL, check function of connect or connection pool part of the source code.</BR>
 </BR>
